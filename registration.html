@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form action="">
+      <h2 align="center">Fill out the form carefully</h2>
+      <fieldset>
+        <table align="center">
+          <tr>
+            <td></td>
+          </tr>
+          <legend align="center">Registration Form</legend>
+          <tr>
+            <td>First Name</td>
+            <td>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                required
+                value="John"
+              />
+            </td>
+            <td>Middle Name</td>
+            <td>
+              <input
+                type="text"
+                id="mname"
+                name="mname"
+                required
+              />
+            </td>
+            <td>Last Name</td>
+            <td>
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" id="email" name="email" required /></td>
+          </tr>
+          <tr>
+            <td>Password</i></td>
+            <td><input type="password" id="pwd" name="pwd" required /></td>
+          </tr>
+          <tr>
+            <td>Confirm Password</td>
+            <td <i class="fa-solid fa-password"><input type="password" id="pwd1" name="pwd1" required /></i></td>
+          </tr>
+          <tr>
+            <td>Birthday</td>
+            <td><input type="date" name="date" id="date">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Gender
+              <td><input type="radio" name="gender" value="male" checked />Male
+              <input type="radio" name="gender" value="female" />Female
+              <input type="radio" name="gender" value="others" />Others</td>
+            </td>
+          </tr>
+          <tr>
+            <td>Street Address</td>
+            <td><input type="text" id="address" name="address" req /></td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td><input type="text" id="city" name="city" /></td>
+            <td>State</td>
+            <td><input type="text" id="state" name="state" /></td>
+            <td>Zip Code</td>
+            <td><input type="number" id="zip" name="zip" /></td>
+          </tr>
+          <tr>
+            <td>Home Phone</td>
+            <td><input type="tel" name="tel" id="tel" required /></td>
+            <td>Cell Phone</td>
+            <td><input type="tel" name="tel" id="tel" required /></td>
+          </tr>
+          <td>Courses</td>
+          <td><select type="select" id="course" name="course">
+            <option>Select the courses</option>
+            <option value="php">PHP</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="ruby">Ruby</option>
+          </td>
+          </tr>
+          <tr>
+            <td>Interests</td>
+            <td><input type="checkbox" name="interest" value="Sports">Sports
+            <input type="checkbox" name="interest" value="Sports">Music
+            <input type="checkbox" name="interest" value="Sports">Outdoor
+            <input type="checkbox" name="interest" value="Sports">Games</td>
+          </tr>
+          <tr>
+            <td>Upload Photo</td>
+            <td><input type="file" name="photo" id="photo"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>About Yourself</td>
+            <tr>
+              <td></td>
+              <td><textarea name="me" id="me" cols="30" rows="10" placeholder="Write about Yourself"></textarea></td>
+            </tr>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Agree the terms and condition</td>
+            <tr>
+              <td></td>
+              <td><input type="checkbox" name="terms" id="agree" value="agree">Agree
+              <input type="checkbox" name="terms" id="disagree" value="disagree">Disagree</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          <input type="submit" value="Register"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+<html>

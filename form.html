@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ecommerce" />
+    <meta name="description" content="it is all about information" />
+    <meta name="author" content="Nema Bholan" />
+    <meta http-equiv="refresh" content="5" />
+    <meta http-equiv="refresh" content="0; url=http://google.com" />
+    <title>Forms</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <form autocomplete="off">
+      <fieldset>
+        <legend><strong>Fill out the Form</strong></legend>
+        <input type="hidden" name="user" value="admin" />
+        <label for="fname"> First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="name"
+          placeholder="Enter your first name"
+          autofocus
+          value="Nema"
+          required
+          readonly
+        />
+        <br />
+        <label for="middlename">Middle Name</label>
+        <input
+          type="text"
+          id="middlename"
+          name="name"
+          placeholder="Enter your middle name"
+        />
+        <br />
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="name"
+          placeholder="Enter your last name"
+          required
+        /><br />
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="example@example.com"
+          required
+        />
+        <br />
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="pwd" required />
+        <br />
+        <label for="message">Message</label> <br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <br />
+        <label for="file">File Upload</label>
+        <input type="file" name="file" id="file" /> <br />
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" /> <br />
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="male" checked />Male
+        <input type="radio" name="gender" value="female" />Female
+        <input type="radio" name="gender" value="others" />Others<br />
+        <label for="">Choose Any Two</label> <br />
+        <input type="checkbox" name="subject" value="web" />Web
+        <input type="checkbox" name="subject" value="php" />Php
+        <input type="checkbox" name="subject" value="diploma" />Diploma
+        <input type="checkbox" name="subject" value="man" />Management <br />
+        <label for="">Districts:</label>
+        <select name="districts" id="district">
+          <option value="">Choose</option>
+          <option value="ktm">Kathmandu</option>
+          <option value="bkt">Bhaktapur</option>
+          <option value="lal">Lalitpur</option>
+          <option value="bara">Bara</option>
+          <option value="pok">Pokhara</option>
+        </select>
+        <br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" required /> <br />
+        <label for="zip">Zip Code</label>
+        <input type="number" name="zip" id="zip" required /> <br />
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="Phone" required /> <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
